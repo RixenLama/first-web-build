@@ -9,3 +9,6 @@ I used the following languages:
 -HTML
 -SASS
 -JS
+
+
+To open the website laytout, you have to download the file and open it via Figma. 
