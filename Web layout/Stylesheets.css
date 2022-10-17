@@ -1,25 +1,53 @@
-body {
-  margin: 0%;
-  padding: 0%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#tab-bar-content {
+#tab-bar {
+  background-color: black;
+  opacity: 60%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#tab-bar-content1, #tab-bar-content2 {
   font-family: Mochiy Pop One, sans-serif;
   color: white;
   text-decoration: none;
   font-size: 70px 50px;
-  padding: 10%;
+  padding: 10px;
+  font-size: 20px;
   opacity: 50%;
 }
 
-#tab-bar-content:hover {
+#tab-bar-content1 {
+  position: fixed;
+  left: 25px;
+  top: 10px;
+}
+
+#tab-bar-content2 {
+  position: fixed;
+  left: 100px;
+  top: 10px;
+}
+
+#tab-bar-content2:hover {
   opacity: 100%;
 }
 
-#tab-bar {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/originals/06/0f/fc/060ffc88673f2b85b2abe515da235ce6.jpg");
+#tab-bar-content1:hover {
+  opacity: 100%;
+}
+
+#tab-bar-div {
+  background-image: url("./Backgound images.png");
   background-size: cover;
-  height: 400px;
+  height: 845px;
 }
 
 #title {
