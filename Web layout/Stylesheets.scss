@@ -13,9 +13,33 @@ body{
     text-decoration: none;
     font-size: 70px 50px;
     padding: 10%;
+    opacity: 50%;
 }
 
+#tab-bar-content:hover{
+    opacity: 100%;
+}
 
 #tab-bar{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://i.pinimg.com/originals/06/0f/fc/060ffc88673f2b85b2abe515da235ce6.jpg');
+    background-size: cover; 
+    height: 400px;
+}
+
+#title{
+    position: absolute;
+width: 700px;
+height: 96.94px;
+left: 0px;
+top: 400px;
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: black;
+
+font-family: 'Mochiy Pop One';
+font-weight: 400;
+font-size: 50px;
+line-height: 72px;
+
+color: white;
+}
 
