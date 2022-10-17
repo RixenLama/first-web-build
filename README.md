@@ -9,6 +9,8 @@ I used the following languages:
 -HTML
 -SASS
 -JS
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 To open the website laytout, you have to download the file and open it via Figma. 
+Link to Figma: https://www.figma.com/file/syLc7oP0twBirj0Bb6uuyM/First-Web?node-id=0%3A1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
