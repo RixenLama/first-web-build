@@ -1,0 +1,28 @@
+$Primary-color: black;
+$Primary-font: Mochiy Pop One, sans-serif; 
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#tab-bar-content{
+    font-family: $Primary-font;
+    color: white;
+    text-decoration: none;
+    font-size: 70px 50px;
+    padding: 10%;
+}
+
+
+#tab-bar{
+    background-color: black;
+    opacity: 60%;
+    padding: 25px 25px 25px 25px;
+}
+
+#tab-bar-div{
+    background-image: url("https://pin.it/5GH7p8yhttps://i.pinimg.com/564x/06/0f/fc/060ffc88673f2b85b2abe515da235ce6.jpg");
+    background-image: block;
+}
