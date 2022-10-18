@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Tab Bar Style sheets */
 #tab-bar {
   background-color: black;
   opacity: 60%;
@@ -36,31 +37,64 @@
   top: 10px;
 }
 
-#tab-bar-content2:hover {
-  opacity: 100%;
-}
-
-#tab-bar-content1:hover {
-  opacity: 100%;
-}
-
 #tab-bar-div {
   background-image: url("./Backgound images.png");
   background-size: cover;
   height: 845px;
 }
 
-#title {
+/* End of Tab-bar StyleSheets*/
+/* Style-sheets for text*/
+pre {
   position: absolute;
-  width: 700px;
-  height: 96.94px;
-  left: 0px;
-  top: 400px;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: black;
-  font-family: "Mochiy Pop One";
+  width: 940px;
+  height: 132.19px;
+  left: 230px;
+  top: 640px;
+  font-family: Mochiy Pop One, sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-size: 50px;
-  line-height: 72px;
+  font-size: 15px;
+  line-height: 22px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   color: white;
+}
+
+#join-now-link {
+  position: absolute;
+  width: 170px;
+  height: 166.9px;
+  left: 1172.55px;
+  top: 600px;
+  opacity: 70%;
+}
+
+h1 {
+  position: absolute;
+  width: 379px;
+  height: 96.94px;
+  left: 231px;
+  top: 550px;
+  font-family: black;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 72px;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
+  color: white;
+}
+
+/* Pseudo Class */
+#join-now-link:hover {
+  opacity: 100%;
+  transform: scale(1.1);
+}
+
+#tab-bar-content2:hover {
+  opacity: 100%;
+}
+
+#tab-bar-content1:hover {
+  opacity: 100%;
 }/*# sourceMappingURL=Stylesheets.css.map */
