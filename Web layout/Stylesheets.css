@@ -7,7 +7,6 @@
 /* Tab Bar Style sheets */
 #tab-bar {
   background-color: black;
-  opacity: 60%;
   height: 60px;
   position: fixed;
   top: 0;
@@ -22,7 +21,6 @@
   font-size: 70px 50px;
   padding: 10px;
   font-size: 20px;
-  opacity: 50%;
 }
 
 #tab-bar-content1 {
@@ -38,14 +36,38 @@
 }
 
 #tab-bar-div {
-  background-image: url("./Backgound images.png");
+  background-image: url("./Background.png");
   background-size: cover;
-  height: 845px;
+  height: 3675px;
 }
 
 /* End of Tab-bar StyleSheets*/
 /* Style-sheets for text*/
-pre {
+#first-pre {
+  position: absolute;
+  width: 708px;
+  height: 475px;
+  left: 75px;
+  top: 1025px;
+  font-family: Mochiy Pop One, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#second-pre {
+  position: absolute;
+  width: 639px;
+  height: 260px;
+  left: 720px;
+  top: 1660px;
+  font-family: Mochiy Pop One, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#title-pre {
   position: absolute;
   width: 940px;
   height: 132.19px;
@@ -85,6 +107,28 @@ h1 {
   color: white;
 }
 
+#first-h2 {
+  position: absolute;
+  width: 550px;
+  height: 100px;
+  left: 75px;
+  top: 875px;
+  font-family: Mochiy Pop One, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+#second-h2 {
+  font-family: Mochiy Pop One, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  position: absolute;
+  width: 639px;
+  height: 100px;
+  left: 750px;
+  top: 1500px;
+}
+
 /* Pseudo Class */
 #join-now-link:hover {
   opacity: 100%;
@@ -92,9 +136,35 @@ h1 {
 }
 
 #tab-bar-content2:hover {
-  opacity: 100%;
+  transform: scale(1.1);
 }
 
 #tab-bar-content1:hover {
-  opacity: 100%;
+  transform: scale(1.1);
+}
+
+/* Middle Section */
+#first-image {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 990px;
+  top: 950px;
+}
+
+#second-image {
+  position: absolute;
+  width: 600px;
+  height: 538.11px;
+  left: 75px;
+  top: 1500px;
+}
+
+/* Last Section */
+#last-section {
+  position: absolute;
+  width: 2100px;
+  height: 160px;
+  left: 52px;
+  top: 3137px;
 }/*# sourceMappingURL=Stylesheets.css.map */
