@@ -12,6 +12,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 9;
 }
 
 #tab-bar-content1, #tab-bar-content2 {
@@ -51,7 +52,6 @@
   top: 1025px;
   font-family: Mochiy Pop One, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 15px;
 }
 
@@ -63,7 +63,6 @@
   top: 1660px;
   font-family: Mochiy Pop One, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 15px;
 }
 
@@ -75,9 +74,7 @@
   top: 640px;
   font-family: Mochiy Pop One, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 15px;
-  line-height: 22px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: white;
@@ -99,9 +96,7 @@ h1 {
   left: 231px;
   top: 550px;
   font-family: black;
-  font-weight: 400;
   font-size: 75px;
-  line-height: 72px;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: black;
   color: white;
@@ -114,13 +109,11 @@ h1 {
   left: 75px;
   top: 875px;
   font-family: Mochiy Pop One, sans-serif;
-  font-weight: 400;
   font-size: 50px;
 }
 
 #second-h2 {
   font-family: Mochiy Pop One, sans-serif;
-  font-weight: 400;
   font-size: 50px;
   position: absolute;
   width: 639px;
