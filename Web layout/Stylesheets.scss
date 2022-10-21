@@ -9,6 +9,12 @@ $Primary-font: Mochiy Pop One, sans-serif;
     box-sizing: border-box;
 }
 
+body{
+    height: 3675px;
+    margin: 0%;
+    padding: 0%;
+}
+
 /* Tab Bar Style sheets */
 #tab-bar{
     background-color: black;
@@ -70,6 +76,19 @@ font-style: normal;
 font-size: 15px
 }
 
+#third-pre{
+position:absolute;
+width: 639px;
+height: 145px;
+left: 38px;
+top: 2390px;
+
+
+font-family: $Primary-font;
+font-style: normal;
+font-size: 15px
+}
+
 #title-pre{
     position: absolute;
 width: 940px;
@@ -123,7 +142,7 @@ font-size: 50px;
 }
 
 #second-h2{  
-    font-family: $Primary-font;
+font-family: $Primary-font;
 font-size: 50px;
 
 position: absolute;
@@ -131,8 +150,19 @@ width: 639px;
 height: 100px;
 left: 750px;
 top: 1500px;
-
 }
+
+#third-h2{
+font-family: $Primary-font;
+font-size: 50px;
+
+position: absolute;
+width: 639px;
+height: 100px;
+left: 75px;
+top: 2255px;
+}
+
 
 
 
@@ -168,6 +198,14 @@ left: 75px;
 top: 1500px;
 }
 
+#third-image{
+position: absolute;
+width: 400px;
+height: 365px;
+left: 850px;
+top: 2255px;
+}
+
 
 /* Last Section */
 
@@ -179,3 +217,92 @@ left: 52px;
 top: 3137px;
 }
 
+#pre-4{
+font-style: $Primary-font;
+color: rgba(255, 255, 255, 0.5);;
+font-size: 15px;
+position: absolute;
+width: 375px;
+height: 100px;
+left: 15px;
+top: 3400px;
+}
+
+#pre-5{
+font-style: $Primary-font;
+color: rgba(255, 255, 255, 0.5);;
+font-size: 10px;
+position: absolute;
+width: 375px;
+height: 100px;
+left: 15px;
+top: 3650px;
+}
+
+#pre-6{
+font-style: $Primary-font;
+color: rgba(255, 255, 255, 0.5);;
+font-size: 20px;
+position: absolute;
+width: 375px;
+height: 100px;
+right: 120px;
+top: 3400px;
+}
+
+#instagram{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 375px;
+    top: 3430px;
+}
+
+#facebook{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 375px;
+    top: 3470px;    
+}
+
+#youtube{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 375px;
+    top: 3510px;    
+}
+
+#instagram-pre{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 330px;
+    top: 3430px;
+
+    font-size: 15px;
+    color: white;
+}
+
+#facebook-pre{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 330px;
+    top: 3470px;
+
+    font-size: 15px;
+    color: white;
+}
+
+#youtube-pre{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 330px;
+    top: 3510px;
+
+    font-size: 15px;
+    color: white;
+}
