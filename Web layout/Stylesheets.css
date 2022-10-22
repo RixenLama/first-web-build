@@ -106,7 +106,7 @@ body {
   opacity: 70%;
 }
 
-h1 {
+#web-title {
   position: absolute;
   width: 379px;
   height: 96.94px;
@@ -282,4 +282,12 @@ h1 {
   top: 3510px;
   font-size: 15px;
   color: white;
+}
+
+/* Shop Section */
+#shop-background {
+  background-image: url("/shop-background.png");
+  background-size: cover;
+  height: 2150px;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=Stylesheets.css.map */
