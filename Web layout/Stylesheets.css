@@ -5,9 +5,9 @@
 }
 
 body {
-  height: 3675px;
-  margin: 0%;
-  padding: 0%;
+  background-image: url("./Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Tab Bar Style sheets */
@@ -40,12 +40,6 @@ body {
   position: fixed;
   left: 100px;
   top: 10px;
-}
-
-#tab-bar-div {
-  background-image: url("./Background.png");
-  background-size: cover;
-  height: 3675px;
 }
 
 /* End of Tab-bar StyleSheets*/
