@@ -1,13 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  border: 0;
 }
 
 body {
   background-image: url("./Background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 /* Tab Bar Style sheets */
@@ -188,7 +190,7 @@ body {
   width: 2100px;
   height: 160px;
   left: 52px;
-  top: 3137px;
+  top: 4800px;
 }
 
 #pre-4 {
@@ -210,7 +212,7 @@ body {
   width: 375px;
   height: 100px;
   left: 15px;
-  top: 3650px;
+  top: 5300px;
 }
 
 #pre-6 {
